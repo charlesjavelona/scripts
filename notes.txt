@@ -1,0 +1,17 @@
+NOTES ON TESTING ONLINE:
+    Since I need to test the code in an actual phone,
+    Heroku will be used to deploy the code, the bank does not have
+    a place to sandbox the testing ground so Heroku will do for now.
+    It is the fastest to deploy and destroy. It will suit my need
+
+    With that said, the development is in beta, which means that 
+    no known entity can get a hold of it. For this purpose I will execute a script to deploy and destroy.
+    Below is the sudo code for deploying and destroying the app.
+
+
+    DEPLOY:
+        Create a branch off from develop branch, must have a randomized name
+        Delete the JS minifier
+        Go through the heroku deployment, here is a ref(https://medium.com/@gge/deploy-a-meteor-1-3-application-to-heroku-cda1f68ca20a#.6lh58tbzg)
+            -Probably need a randomizer for the name
+
